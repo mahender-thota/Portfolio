@@ -1,205 +1,340 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Mahender Thota | Java Backend Developer</title>
-<meta name="description" content="Portfolio of Mahender Thota, Java Backend Developer with 3.8+ years of experience in Java, Spring Boot, REST APIs and MySQL.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Mahender Thota — Java Full Stack Developer portfolio, experience, education, skills and projects." />
+  <title>Mahender Thota | Java Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-
-<nav class="nav" aria-label="Primary">
-  <div class="wrap">
-    <a class="brand" href="#top">mahender<span>.</span>thota</a>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle light and dark theme">theme</button>
-  </div>
-</nav>
-
-<header class="hero" id="top">
-  <div class="wrap">
-    <div>
-      <div class="status"><span class="dot"></span> Open to backend opportunities</div>
-      <h1>Mahender <em>Thota</em></h1>
-      <p class="role">Java Backend Developer · 3.8+ years · ex-LTIMindtree</p>
-      <p class="lede">Building scalable, secure and high-performance backend applications using Java and Spring Boot.</p>
-      <div class="cta">
-        <a class="btn primary" href="#projects">View Projects</a>
-        <button class="btn" type="button" id="resumeBtn">Download Resume</button>
-        <a class="btn" href="#contact">Contact Me</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home">Mahender<span>Thota</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#education">Study</a><a
+          href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
       </div>
-      <p class="note" id="resumeNote" role="status"></p>
-      <div class="facts">
-        <div><b>3.8+</b><span>years in IT</span></div>
-        <div><b>REST</b><span>API development</span></div>
-        <div><b>MySQL</b><span>data integration</span></div>
+      <a class="button button-small" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+          <p class="intro">Hello, I'm</p>
+          <h1>Mahender<br><span>Thota</span></h1>
+          <h2>Java Developer</h2>
+          <p class="hero-description">I build reliable backend services and practical web applications with Java, Spring
+            Boot, SQL and REST APIs.</p>
+          <div class="hero-actions">
+            <a class="button" href="#projects">Explore my work <span>↘</span></a>
+          </div>
+          <div class="social-links"><a href="https://www.linkedin.com/in/mahender-thota/" target="_blank"
+              rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path fill="currentColor"
+                  d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM8.05 18.5H5.1V9h2.95v9.5ZM6.58 7.7a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42ZM19 18.5h-2.94v-4.62c0-1.1-.02-2.52-1.54-2.52-1.54 0-1.78 1.2-1.78 2.44v4.7H9.8V9h2.82v1.3h.04c.39-.74 1.35-1.52 2.78-1.52 2.97 0 3.56 1.95 3.56 4.48v5.24Z" />
+              </svg></a><a href="https://github.com/Thotaa-dev" target="_blank" rel="noopener noreferrer"
+              aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.68-3.75-1.32-3.75-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1.76 2.2 3.14 1.57.1-.72.39-1.2.7-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.1-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.16 1.78 1.16 3 0 4.29-2.62 5.23-5.11 5.51.4.35.75 1.03.75 2.08V22c0 .29.2.63.77.52A11.1 11.1 0 0 0 12 .9Z" />
+              </svg></a><a href="mailto:mahenderthota@gmail.com" aria-label="Email" title="Email">✉</a></div>
+          <div class="hero-meta"><span>Java</span><i></i><span>Spring
+              Boot</span><i></i><span>SQL</span><i></i><span>REST APIs</span></div>
+        </div>
+        <div class="hero-art" aria-label="Abstract developer illustration">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="code-window">
+            <div class="window-top"><span></span><span></span><span></span><small>Developer.java</small></div>
+            <div class="code-lines">
+              <p><b>01</b> <span class="purple">public class</span> <span class="mint">Developer</span> {</p>
+              <p><b>02</b> &nbsp; <span class="purple">private</span> String focus =</p>
+              <p><b>03</b> &nbsp; <span class="gold">"Building useful things"</span>;</p>
+              <p><b>04</b></p>
+              <p><b>05</b> &nbsp; <span class="purple">public void</span> <span class="mint">build</span>() {</p>
+              <p><b>06</b> &nbsp;&nbsp;&nbsp; learn();</p>
+              <p><b>07</b> &nbsp;&nbsp;&nbsp; solveProblems();</p>
+              <p><b>08</b> &nbsp; }</p>
+              <p><b>09</b> }</p>
+            </div>
+          </div>
+          <div class="floating-tag tag-java"><span class="tag-icon">☕</span>
+            <div><strong>Java</strong><small>Backend</small></div>
+          </div>
+          <div class="floating-tag tag-api"><span class="tag-icon">⌘</span>
+            <div><strong>REST APIs</strong><small>Integration</small></div>
+          </div>
+          <div class="hero-caption"><span class="caption-line"></span> Curious mind. Practical solutions.</div>
+        </div>
       </div>
-    </div>
+      <div class="hero-bottom">
+        <div class="wrap bottom-inner"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span
+            class="bottom-note">Focused on clean code & continuous learning</span></div>
+      </div>
+    </section>
 
-    <div class="term" aria-label="Sample Spring Boot controller and API response">
-      <div class="term-bar"><i></i><i></i><i></i><span>UserController.java</span></div>
-<pre><span class="d">@RestController</span>
-<span class="d">@RequestMapping(</span><span class="s">"/api/v1/users"</span><span class="d">)</span>
-<span class="k">public class</span> <span class="t">UserController</span> {
-
-  <span class="d">@GetMapping(</span><span class="s">"/{id}"</span><span class="d">)</span>
-  <span class="k">public</span> <span class="t">ResponseEntity</span>&lt;<span class="t">UserDto</span>&gt; get(
-      <span class="d">@PathVariable</span> <span class="t">Long</span> id) {
-    <span class="k">return</span> ResponseEntity.ok(service.find(id));
-  }
-}</pre>
-      <pre class="sep"><span class="d">$</span> curl -i localhost:8080/api/v1/users/42
-<span class="ok">HTTP/1.1 200 OK</span>
-<span class="d">Content-Type:</span> application/json
-{ <span class="s">"id"</span>: 42, <span class="s">"name"</span>: <span class="s">"Ravi"</span>, <span class="s">"role"</span>: <span class="s">"ADMIN"</span> }
-
-<span class="d">INFO  Started Application in 3.2 seconds</span></pre>
-    </div>
-  </div>
-</header>
-
-<main class="wrap">
-  <section class="block" id="about">
-    <div class="spec">
-      <header><div class="eyebrow">About</div><h2>About me</h2><p>Backend engineer focused on dependable enterprise systems.</p></header>
-      <div>
+    <section class="section wrap" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Engineering with <span>purpose.</span></h2>
+      </div>
+      <div class="about-grid">
         <div class="about-text">
-          <p>I am a Java backend developer with 3.8+ years of IT experience building and maintaining enterprise applications. My work centres on Java and the Spring ecosystem, with REST APIs and relational databases at the core.</p>
-          <p>I enjoy the unglamorous parts that keep production healthy: tracing a stubborn bug through logs, tuning a slow query, and making an API behave the same way on a bad day as on a good one.</p>
+          <p class="lead">I'm a Java Full Stack Developer with <strong>3.8 years of professional experience at
+              LTIMindtree</strong>, focused on enterprise backend solutions.</p>
+          <p>I work with Java, Spring Boot, SQL, REST APIs and microservices to build maintainable applications,
+            troubleshoot issues and support reliable delivery. I enjoy understanding how systems work and turning
+            requirements into practical solutions.</p>
+          <p>I'm continuing to strengthen my full-stack skills and looking for an opportunity to contribute, learn and
+            grow with a development team.</p>
         </div>
-        <ul class="points">
-          <li>3.8+ years of IT experience</li>
-          <li>Java backend application development</li>
-          <li>Enterprise application development</li>
-          <li>REST API development and database integration</li>
-          <li>Problem-solving and debugging</li>
-          <li>Clean, maintainable, well-documented code</li>
-        </ul>
+        <div class="about-facts">
+          <div class="fact-card"><span class="fact-number">01</span>
+            <div>
+              <h3>Backend development</h3>
+              <p>Java · Spring Boot · Hibernate</p>
+            </div>
+          </div>
+          <div class="fact-card"><span class="fact-number">02</span>
+            <div>
+              <h3>Data & integration</h3>
+              <p>SQL · MySQL · REST APIs</p>
+            </div>
+          </div>
+          <div class="fact-card"><span class="fact-number">03</span>
+            <div>
+              <h3>Team delivery</h3>
+              <p>Git · Debugging · Problem solving</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="block" id="skills">
-    <div class="spec">
-      <header><div class="eyebrow">Skills</div><h2>Technical skills</h2><p>The tools I use to design, build and ship backend services.</p></header>
-      <div class="skill-groups" id="skillGroups"></div>
-    </div>
-  </section>
-
-  <section class="block" id="experience">
-    <div class="spec">
-      <header><div class="eyebrow">Experience</div><h2>Professional experience</h2><p>Enterprise backend work at a global IT services company.</p></header>
-      <article class="job">
-        <div class="job-head">
-          <h3>LTIMindtree</h3>
-          <span class="meta">3.8+ years</span>
-        </div>
-        <p class="role-line">Backend Developer</p>
-        <ul>
-          <li>Developed and maintained backend modules for enterprise applications using Java and Spring Boot.</li>
-          <li>Built and integrated RESTful APIs that connect services, front ends and third-party systems.</li>
-          <li>Wrote and optimised SQL queries and joins on MySQL, and mapped data with Hibernate and Spring Data JPA.</li>
-          <li>Investigated production issues, traced root causes through logs and fixed defects with minimal downtime.</li>
-          <li>Tested and documented APIs with Postman and Swagger / OpenAPI, and worked in Git-based team workflows.</li>
-        </ul>
-        <div class="tags">
-          <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">SQL</span><span class="tag">API integration</span><span class="tag">Troubleshooting</span><span class="tag">Enterprise apps</span>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section class="block" id="projects">
-    <div class="spec">
-      <header><div class="eyebrow">Projects</div><h2>Featured projects</h2><p>Selected work with architecture, stack and source code.</p></header>
-      <div>
-        <!-- To add another project, copy this whole <article class="project"> block and edit the text, tags, flow nodes and GitHub link. -->
-        <article class="project">
+    <section class="section wrap" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">EDUCATION & LEARNING</p>
+        <h2>Study & professional development.</h2>
+      </div>
+      <div class="education-grid">
+        <article class="education-card">
+          <div class="education-icon">🎓</div>
           <div>
-            <div class="sub">Sample project · replace with your own</div>
-            <h3>Spring Boot REST API Application</h3>
-            <p style="margin-top:12px;max-width:62ch;">A layered REST API for managing employee records, with secured endpoints, validated requests, paginated queries and auto-generated API documentation.</p>
-          </div>
-          <div>
-            <h4>Architecture</h4>
-            <div class="flow">
-              <div class="node"><b>Client</b>Postman / Web</div><span class="arrow">→</span>
-              <div class="node hl"><b>Security</b>Spring Security filter</div><span class="arrow">→</span>
-              <div class="node"><b>Controller</b>REST endpoints</div><span class="arrow">→</span>
-              <div class="node"><b>Service</b>Business logic</div><span class="arrow">→</span>
-              <div class="node"><b>Repository</b>Spring Data JPA</div><span class="arrow">→</span>
-              <div class="node hl"><b>MySQL</b>Relational data</div>
-            </div>
-          </div>
-          <div>
-            <h4>Technologies</h4>
-            <div class="tags" style="margin-top:0">
-              <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Spring Security</span><span class="tag">Spring Data JPA</span><span class="tag">Hibernate</span><span class="tag">MySQL</span><span class="tag">Maven</span><span class="tag">Swagger / OpenAPI</span>
-            </div>
-          </div>
-          <div>
-            <h4>Key features</h4>
-            <ul class="feat">
-              <li>CRUD endpoints following REST conventions</li>
-              <li>Authentication and role-based authorization</li>
-              <li>Request validation and global exception handling</li>
-              <li>Pagination, sorting and filtering</li>
-              <li>Swagger UI for interactive API docs</li>
-              <li>Layered design for easy testing</li>
-            </ul>
-          </div>
-          <div class="project-links">
-            <a class="btn primary" href="https://github.com/" target="_blank" rel="noopener">View on GitHub ↗</a>
+            <h3>B.Tech, Computer Science</h3>
+            <p>Malla Reddy Institute of Engineering and Technology</p><span>foundation in programming, OOP, and
+              databases./span>
           </div>
         </article>
-        <p class="todo">Placeholder content. Send me the real project name, description and repository link and I will update this card.</p>
-
-        <div class="profiles">
-          <a class="profile" href="https://github.com/" target="_blank" rel="noopener"><div><b>GitHub profile</b><span>Project repositories</span></div><span>↗</span></a>
-          <a class="profile" href="https://www.linkedin.com/" target="_blank" rel="noopener"><div><b>LinkedIn profile</b><span>Experience and recommendations</span></div><span>↗</span></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="block" id="contact">
-    <div class="spec">
-      <header><div class="eyebrow">Contact</div><h2>Get in touch</h2><p>Open to backend roles and interesting projects.</p></header>
-      <div class="contact-grid">
-        <div class="channels">
-          <div class="channel"><small>Email</small><div class="row"><span class="val" id="emailVal">your.email@example.com</span><button class="copy" type="button" data-copy="emailVal">copy</button></div></div>
-          <div class="channel"><small>LinkedIn</small><div class="row"><a class="val" href="https://www.linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/your-profile</a></div></div>
-          <div class="channel"><small>GitHub</small><div class="row"><a class="val" href="https://github.com/" target="_blank" rel="noopener">github.com/your-username</a></div></div>
-        </div>
-        <form id="contactForm" novalidate>
-          <div class="two">
-            <div class="field"><label for="cname">Name</label><input id="cname" name="name" type="text" autocomplete="name" required></div>
-            <div class="field"><label for="cemail">Email</label><input id="cemail" name="email" type="email" autocomplete="email" required></div>
+        <article class="education-card">
+          <div class="education-icon">⌘</div>
+          <div>
+            <h3>Java Developer Training</h3>
+            <p>Java · Spring Boot · Hibernate · SQL</p><span>Hands-on learning and mini-project practice</span>
           </div>
-          <div class="field"><label for="csubject">Subject</label><input id="csubject" name="subject" type="text"></div>
-          <div class="field"><label for="cmsg">Message</label><textarea id="cmsg" name="message" required></textarea></div>
-          <button class="btn primary" type="submit" style="justify-self:start">Send message</button>
-          <p class="form-status" id="formStatus" role="status"></p>
-        </form>
+        </article>
       </div>
+    </section>
+
+    <section class="section section-tinted" id="skills">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">MY TOOLKIT</p>
+          <h2>Skills & technologies.</h2>
+          <p class="section-subtitle">Tools I use and technologies I'm developing experience with.</p>
+        </div>
+        <div class="logo-skills-grid" aria-label="Technology links">
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="Java official website"><i
+              class="devicon-java-plain colored" aria-hidden="true"></i><span>Java</span><span
+              class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="Spring Boot official website"><i
+              class="devicon-spring-original colored" aria-hidden="true"></i><span>Spring Boot</span><span
+              class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer"
+            aria-label="Spring Framework official website"><i class="devicon-spring-original colored"
+              aria-hidden="true"></i><span>Spring MVC</span><span class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="Spring Boot official website"><i
+              class="devicon-spring-original colored" aria-hidden="true"></i><span>Spring Boot JPA</span><span
+              class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="Hibernate official website"><i
+              class="devicon-hibernate-plain colored" aria-hidden="true"></i><span>Hibernate / JPA</span><span
+              class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="MySQL official website"><i
+              class="devicon-mysql-original colored" aria-hidden="true"></i><span>MySQL</span><span
+              class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="SQL learning resource"><i
+              class="devicon-azuresqldatabase-plain colored" aria-hidden="true"></i><span>SQL</span><span
+              class="external-mark">↗</span></a>
+          <!-- <a class="logo-skill" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"
+            rel="noopener noreferrer" aria-label="HTML documentation"><i class="devicon-html5-plain colored"
+              aria-hidden="true"></i><span>HTML5</span><span class="external-mark">↗</span></a>
+          <a class="logo-skill" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+            rel="noopener noreferrer" aria-label="CSS documentation"><i class="devicon-css3-plain colored"
+              aria-hidden="true"></i><span>CSS3</span><span class="external-mark">↗</span></a>
+          <a class="logo-skill" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+            rel="noopener noreferrer" aria-label="JavaScript documentation"><i class="devicon-javascript-plain colored"
+              aria-hidden="true"></i><span>JavaScript</span><span class="external-mark">↗</span></a> -->
+
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="Git official website"><i
+              class="devicon-git-plain colored" aria-hidden="true"></i><span>Git</span><span
+              class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="Your GitHub profile"><i
+              class="devicon-github-original colored" aria-hidden="true"></i><span>GitHub</span><span
+              class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="AWS official website"><i
+              class="devicon-amazonwebservices-plain-wordmark colored" aria-hidden="true"></i><span>AWS</span><span
+              class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="Postman official website"><i
+              class="devicon-postman-plain colored" aria-hidden="true"></i><span>Postman</span><span
+              class="external-mark">↗</span></a>
+          <a class="logo-skill" target="_blank" rel="noopener noreferrer" aria-label="MongoDB official website"><i
+              class="devicon-mongodb-plain colored" aria-hidden="true"></i><span>MongoDB</span><span
+              class="external-mark">↗</span></a>
+        </div>
+        <p class="skill-note">Please adjust this list to match the technologies you can confidently discuss in an
+          interview.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">CAREER JOURNEY</p>
+        <h2>Experience that builds forward.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-marker"></div>
+        <article class="experience-card">
+          <div class="experience-top">
+            <div>
+              <p class="eyebrow">PROFESSIONAL EXPERIENCE</p>
+              <h3>LTIMindtree</h3>
+              <p class="role">Java / Backend Developer</p>
+            </div><span class="experience-pill">3.8 years</span>
+          </div>
+          <p class="experience-summary">Worked on enterprise application development and backend solutions using
+            Java-related technologies.</p>
+          <ul>
+            <li>Developed and maintained backend functionality using Java and Spring technologies.</li>
+            <li>Worked with SQL and relational databases to support application data needs.</li>
+            <li>Built or supported REST API integrations between application components.</li>
+            <li>Investigated defects, troubleshot application issues and collaborated on fixes.</li>
+            <li>Contributed to maintainable code and reliable application delivery.</li>
+          </ul>
+          <p class="small-note">Edit these bullets to reflect your exact responsibilities and measurable achievements
+            before applying.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- <section class="section section-tinted" id="projects">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects that show how I think.</h2>
+          <p class="section-subtitle">Add your GitHub repositories and screenshots to make these project cards
+            verifiable.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-loan"><span class="visual-label">01 / BACKEND</span>
+              <div class="mini-dashboard">
+                <div class="mini-sidebar"></div>
+                <div class="mini-main"><span></span><span></span>
+                  <div class="mini-chart"></div>
+                  <div class="mini-row"></div>
+                </div>
+              </div><span class="visual-code">LOAN_SERVICE</span>
+            </div>
+            <div class="project-body">
+              <div class="project-type">JAVA · SPRING BOOT</div>
+              <h3>Loan Management System</h3>
+              <p>A loan management application concept for handling customer records, loan details and repayment
+                workflows.</p>
+              <div class="project-tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span><span>REST
+                  APIs</span></div><a class="project-link" href="#contact">Ask me about this project <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-store"><span class="visual-label">02 / FULL STACK</span>
+              <div class="store-window">
+                <div class="store-top"></div>
+                <div class="store-items"><span>▧</span><span>▧</span><span>▧</span></div>
+                <div class="store-lines"><i></i><i></i><i></i></div>
+              </div><span class="visual-code">SHOP_APP</span>
+            </div>
+            <div class="project-body">
+              <div class="project-type">WEB APPLICATION</div>
+              <h3>E-commerce Application</h3>
+              <p>A full-stack project concept for product browsing, cart operations, orders and user authentication.</p>
+              <div class="project-tags"><span>Java</span><span>Spring Boot</span><span>SQL</span><span>HTML / CSS</span>
+              </div><a class="project-link" href="#contact">Ask me about this project <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card project-coming">
+            <div class="coming-mark">+</div>
+            <div class="project-body">
+              <div class="project-type">YOUR NEXT PROJECT</div>
+              <h3>Add a project here</h3>
+              <p>Link a completed mini-project with its problem statement, key features, tech stack and GitHub
+                repository.</p>
+              <div class="project-tags"><span>GitHub</span><span>README</span><span>Demo</span></div><a
+                class="project-link" href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank"
+                rel="noopener noreferrer">Open GitHub <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="contact-section" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="eyebrow">HAVE A ROLE IN MIND?</p>
+          <h2>Let's build<br><span>something great.</span></h2>
+          <p class="contact-copy">I'm interested in Java Developer and Spring Boot opportunities. Reach out to discuss a
+            role or project.</p>
+        </div>
+        <div class="contact-panel">
+          <p class="contact-panel-title">CONTACT DETAILS</p><a class="contact-row"
+            href="mailto:mahenderthotaa@gmail.com"><span
+              class="contact-icon">✉</span><span><small>Email</small><strong>mahenderthotaa@gmail.com</strong></span><span
+              class="arrow">↗</span></a><a class="contact-row" href="" target="_blank" rel="noopener noreferrer"><span
+              class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM8.05 18.5H5.1V9h2.95v9.5ZM6.58 7.7a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42ZM19 18.5h-2.94v-4.62c0-1.1-.02-2.52-1.54-2.52-1.54 0-1.78 1.2-1.78 2.44v4.7H9.8V9h2.82v1.3h.04c.39-.74 1.35-1.52 2.78-1.52 2.97 0 3.56 1.95 3.56 4.48v5.24Z" />
+              </svg></span><span><small>LinkedIn</small><strong>LinkedIn</strong></span><span
+              class="arrow">↗</span></a><a class="contact-row" href="https://github.com/Thotaa-dev" target="_blank"
+            rel="noopener noreferrer"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor"
+                  d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.68-3.75-1.32-3.75-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1.76 2.2 3.14 1.57.1-.72.39-1.2.7-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.1-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.16 1.78 1.16 3 0 4.29-2.62 5.23-5.11 5.51.4.35.75 1.03.75 2.08V22c0 .29.2.63.77.52A11.1 11.1 0 0 0 12 .9Z" />
+              </svg></span><span><small>GitHub</small><strong>Git Hub</strong></span><span class="arrow">↗</span></a>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>“Turning ideas into scalable solutions with Java and modern technologies. All Rights Reserved”, © <span
+          id="year"></span> Mahender Thota</p><a href="#home" class="back-top">Back to top ↑</a>
     </div>
-  </section>
-</main>
-
-<footer>
-  <div class="wrap"><span>© 2026 Mahender Thota</span><span>Java · Spring Boot · MySQL</span></div>
-</footer>
-
-<script src="script.js"></script>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
