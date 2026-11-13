@@ -785,15 +785,38 @@ section.block {
 }
 
 /* contact */
-.contact-grid {
+.spec1 {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
-  gap: 32px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 48px;
 }
 
-@media (max-width: 760px) {
-  .contact-grid {
+.spec1>header h2 {
+  font-size: clamp(1.9rem, 3.6vw, 2.6rem);
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.spec1>header p {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.contact-grid {
+  display: grid;
+  justify-items: center;
+}
+
+.channels {
+  width: min(100%, 440px);
+}
+
+@media (max-width: 860px) {
+  .spec1 {
     grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
   }
 }
 
@@ -812,12 +835,32 @@ section.block {
 }
 
 .channel small {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
+}
+
+.contact-logo {
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+
+.gmail-logo {
+  color: #EA4335;
+}
+
+.linkedin-logo {
+  color: #0A66C2;
+}
+
+.github-logo {
+  color: var(--fg);
 }
 
 .channel .row {

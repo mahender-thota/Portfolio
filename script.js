@@ -44,11 +44,6 @@
     html.setAttribute("data-theme", dark ? "light" : "dark");
   });
 
-  // resume button (no file attached yet)
-  document.getElementById("resumeBtn").addEventListener("click", function () {
-    document.getElementById("resumeNote").textContent = "Resume download is not connected yet. Please use the contact details below to request it.";
-  });
-
   // copy buttons
   document.querySelectorAll(".copy").forEach(function (b) {
     b.addEventListener("click", function () {
